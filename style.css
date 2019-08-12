@@ -1,0 +1,1043 @@
+/*共通*/
+
+h1,h2,h3,h4,h5,a,p,ul,li,i {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12.5px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.form-group,
+.checkbox,
+.label,
+.table  {
+    margin-bottom: 0;
+}
+
+input[type=checkbox] {
+    margin: 0;
+}
+
+/* h4 {
+    margin: 15px;
+} */
+p {
+    margin: 0px 0px 10px 30px;
+}
+.placeholder{
+     color: red;
+}
+
+.wpr-top {
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.wpr-top-ad {
+    margin-top: 150px;
+    background-color: #FFF
+}
+/*エラーメッセージを赤く表示*/
+.error-msg {
+    color: #e60033;
+}
+
+/*文字の大きさ変更*/
+.bg-font-1_2em {
+    font-size: 1.2em;
+    min-height: 16px;
+}
+
+/*文字の大きさ変更*/
+.bg-font-1_1em {
+    font-size: 1.1em;
+}
+
+/*文字の大きさ変更*/
+.sm-font-08em {
+    font-size: 0.8em;
+    line-height: 14px;
+}
+/*文字の大きさ変更*/
+.sm-font-07em {
+    font-size: 0.7em;
+    line-height: 13px;
+}
+
+/*背景を灰色*/
+.bg-defaul {
+    background-color: #fff;
+}
+
+/*文字の右寄せ data row*/
+.text-right {
+    text-align: right;
+}
+
+/*文字の右寄せ login*/
+.text-left {
+    text-align: left;
+}
+
+/*文字の縦中央揃え*/
+.text-he-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*文字の中央揃え*/
+.dropdown > a {
+    text-align : center;
+}
+
+/*上部margin7px*/
+.top-mrg-7 {
+    margin-top: 7px;
+}
+
+/*上部margin8px*/
+.top-mrg-8 {
+    margin-top: 8px;
+}
+
+
+/*上部margin10px*/
+.top-mrg-10 {
+    margin-top: 10px;
+}
+
+/*上部margin15px*/
+.top-mrg-15 {
+    margin-top: 15px;
+}
+
+
+/*上部margin20px*/
+.top-mrg-20 {
+    margin-top: 20px;
+}
+
+/*上部margin25px*/
+.top-mrg-25 {
+    margin-top: 25px;
+}
+
+/*上部margin30px*/
+.top-mrg-30 {
+    margin-top: 30px;
+}
+
+/*上部margin50px*/
+.top-mrg-50 {
+    margin-top: 50px;
+}
+
+/*上部margin50px*/
+.top-mrg-150 {
+    margin-top: 150px;
+}
+
+/*上部margin-10px*/
+.top-mrg-up10 {
+    margin-top: -10px;
+}
+
+/*上部margin-20px*/
+.top-mrg-m10 {
+    margin-top: -20px;
+}
+
+/*下部margin5px*/
+.btm-mrg-5 {
+    margin-bottom: 5px;
+}
+
+/*下部margin10px*/
+.btm-mrg-10 {
+    margin-bottom: 10px;
+}
+
+/*下部margin20px*/
+.btm-mrg-20 {
+    margin-bottom: 20px;
+}
+
+/*下部margin30px*/
+.btm-mrg-30 {
+    margin-bottom: 30px;
+}
+
+/*下部margin30px*/
+.btm-mrg-60 {
+    margin-bottom: 80px;
+}
+
+.rht-mrg-30{
+    margin-right: 30px;
+}
+
+/*marginなし*/
+.non-mrg {
+    margin: 0px;
+}
+
+/*両端padding10px*/
+.side-pdg-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*両端margin10px*/
+.side-mrg-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*左padding20px*/
+.lft-pdg-10 {
+    padding-left: 10px;
+}
+
+/*左padding20px*/
+.lft-pdg-20 {
+    padding-left: 20px;
+}
+
+/*左padding30px*/
+.lft-pdg-30 {
+    padding-left: 30px;
+}
+
+
+/*各テーブルの線を黒に変更*/
+.table-bordered>thead>tr>th, 
+.table-bordered>tbody>tr>th, 
+.table-bordered>tfoot>tr>th, 
+.table-bordered>thead>tr>td, 
+.table-bordered>tbody>tr>td, 
+.table-bordered>tfoot>tr>td {
+    border: 1px solid #000;
+}
+
+.area-bdr-ard {
+    border: solid 1px #000;
+}
+
+/*フォームコントロールの調整*/
+.form-control {
+    padding: 6px;
+    border: 1px solid #989393;
+}
+
+.non-flap {
+    display: inline;
+}
+
+
+/*テキストの色*/
+.head-text a {
+    color: #fff;
+}
+
+/*フッター共通部分*/
+.ftr-area {
+    background-color: #fff1cf;
+    padding: 10px 0px;
+}
+
+
+/*navbar blue*/
+.navbar {
+    border-radius: 0px;
+}
+
+
+/*管理者ヘッダー部分*/
+.navbar-text-ad {
+    background-color: #bebaba;
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: #0274be !important;
+    border-color: transparent;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+/*header button*/
+.navbar-text-ad1 {
+     margin-top: 20px;
+     margin-bottom: 10px;
+}
+
+.gnav {
+    flex-direction: column;
+}
+
+/*ユーザーヘッダー部分*/
+.navbar-inverse-user {
+    background-color: #003366;
+}
+
+/* navbar テキストカラー */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    margin-top: 5px;
+    margin-right: 25px;
+}
+/* navbar hover,focus時のテキストカラー */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+color: #fc7d0f;
+background-color: transparent;
+}
+/* navbar ドロップダウン(子)focus,hover時のカラー */
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+color: #fc7d0f;
+}
+
+/* icon*/
+.icon:focus
+.icon:hover {
+color: #fc7d0f;
+/* background-color: #c3ede7; */
+}
+
+/*利用規約画面*/
+.kiyaku-area {
+    overflow-y: scroll;
+}
+
+/*サイドメニュー*/
+.container-fluid{
+  padding : 0px;
+}
+
+.bgcolor{
+  background : #0274be; 
+  /* background : #bbdefb;*/
+  color: #FFF;
+}
+
+.side-menu {
+    width: 100%;
+}
+/*icon under header */
+.fa-hover:hover{
+    color: #fc7d0f;
+    }
+
+.dropdown-submenu {
+    width: 100%;
+  position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 10px 10px 10px;
+}
+
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+  position: relative;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+
+/*PCのみhover*/
+/*.dropdown,dropdown-submenu {
+  pointer-events: none;
+}*/
+@media screen and (min-width:600px){
+  /*600px以上で適用する内容*/
+  .dropdown:hover > .dropdown-menu{
+    display: block;
+  }
+  .dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+  }
+  .dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+  }
+}
+@media only screen and (min-width : 600px) {
+    /* デスクトップ表示ではホバー操作でドロップダウンを表示 */
+  /*600px以上で適用する内容*/
+  .dropdown:hover > .dropdown-menu{
+    display: block;
+  }
+  .dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+  }
+  .dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+  }
+}
+
+/*ナビゲーションバーのフォントアイコンの色変更*/
+
+
+
+/*トップ画面*/
+dl {
+    width: 100%;
+}
+
+dt {
+    display: block;
+    width: 20%;
+    clear: left;
+    float: left;
+}
+
+dd {
+    display: block;
+    width: 80%;
+    float: left;
+}
+
+/*ユーザーパスワード変更画面*/
+.txt-area-227 {
+    width: 227px;
+}
+
+/*会員情報登録画面*/
+.input-group-addon {
+    background-color: #fcf8e3;
+}
+
+.form-control2 {
+    display: block;
+    width: 100%;
+    height: 64px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+
+.txt-area-160 {
+    width: 250px;
+}
+
+/*入館予定登録ページ*/
+.p-folder-100 {
+    width: 100%;
+}
+
+.p-folder-75 {
+    width: 75%;
+}
+
+.p-folder-50 {
+    width: 50%;
+}
+
+.p-folder-25 {
+    width: 25%;
+}
+
+.p-folder-20 {
+    width: 20%;
+}
+
+/*プレースフォルダーでアイコン表示(いらなくなった)*/
+input{
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.tbl-bdr-nobtm {
+    padding: 5px 10px;
+    border-top: solid 1px gray;
+    border-right: solid 1px gray;
+    border-left: solid 1px gray;
+    border-bottom: solid 1px #d9edf7;
+}
+
+.tbl-bdr-top {
+    border-top: solid 1px gray;
+}
+
+.tbl-bdr-left {
+    border-left: solid 1px gray;
+}
+
+.tbl-p {
+    padding: 5px 10px;
+    border-right: solid 1px gray;
+    border-bottom: solid 1px gray;
+}
+
+/*請求情報一覧画面*/
+.invoice-area {
+    display: table;
+    min-height: 60px;
+    padding: 5px;
+}
+
+.this-month-area {
+    min-height: 126px;
+    border: solid 1px #000;
+    margin: 0px 15px 20px;
+}
+
+.month-data {
+    min-height: 63px;
+    border: solid 1px #000;
+    padding: 5px;
+    margin: 0px 15px 20px;
+}
+
+
+.info-area {
+    min-height: 50px;
+    margin-bottom: 10px;
+    margin: 0px 15px 20px;
+}
+
+.bdr-btm {
+    border-bottom: solid 1px #000;
+}
+
+.bdr-rgt {
+    border-right: solid 1px #000;
+}
+
+.bdr-lft {
+    border-left: solid 1px #000;
+}
+
+/*請求情報明細画面*/
+.billing-area {
+    min-height: 63px;
+    border: solid 1px #000;
+    margin: 0px 15px 20px;
+}
+.details-area {
+    margin-bottom: 20px;
+}
+
+.invoice-deta-area {
+    display: table;
+    min-height: 72px;
+    padding: 5px;
+}
+
+.invoice-bill-area {
+    display: table;
+    min-height: 34px;
+    padding: 5px;
+}
+
+.payee-area {
+    display: table;
+    min-height: 51px;
+    padding: 5px;
+}
+
+.lineitem-area {
+    display: table;
+    min-height: 30px;
+    padding: 5px;
+}
+
+/*請求明細のチェックボックスのwidth指定*/
+@media (min-width: 992px){
+.col-sm-1.check-area {
+    width: 4%;
+}}
+@media (min-width: 768px){
+.col-sm-1.check-area {
+    width: 4%;
+}}
+
+
+/*管理者画面*/
+
+/*管理者トップ画面*/
+.ad-menu {
+    min-height: 145px;
+    padding: 3px;
+}
+
+/*パネルの線の色を黒に変更*/
+.panel-black {
+    border-color: #000;
+}
+
+.menu-label {
+    display: table-cell;
+    min-height: 40px;
+}
+/*管理者パスワード変更画面*/
+.txt-area-193 {
+    width: 193px;
+    text-align: left;
+}
+
+/*管理者会員情報照会画面*/
+/*ボタン編集*/
+.btn-mst {
+    display: inline-block;
+    padding: 6px 12px;
+    width: 200px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.text-box-size {
+    padding: 4px 8px;
+}
+
+/*ページネーションの検索フォーム非表示*/
+#search {
+    display: none;
+}
+
+/*管理者請求情報明細画面*/
+.sm-info-area {
+    min-height: 30px;
+    margin: 0px 15px 10px;
+}
+
+.labelmark {
+    display: inline;
+    padding: .3em .6em;
+    font-size: 100%;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+/*明細部分のpadding調整*/
+.table>tbody>tr>td.inv-details-table {
+    padding: 3px;
+}
+
+/*明細部分のtableだけ枠線*/
+.table.ard-bdr {
+   border-collapse: collapse;
+   border: 1px solid #000;
+}
+
+
+/*明細部分のtableだけ枠線2*/
+.table.ard-bdr-und {
+   border-collapse: collapse;
+   border-top: 1px solid #000;
+   border-right: 1px solid #000;
+   border-left: 1px solid #000;
+}
+
+/*border-topだけ違う設定を統一化*/
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #000;
+}
+
+/*アップデート画面*/
+.form-control-file {
+    padding: 6px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/*delivery_note_entry画面*/
+/*heading*/
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    /* border-color: #101010; */
+    display: inline-block;
+    list-style-type: none;
+}
+
+@media (max-width: 768px){
+    #navbaradmin.in .navbar-nav{ display: block;}
+    .navbar-nav {
+        display: none;
+    }
+}
+
+@media (min-width: 981px){
+    .navbar-nav > li{ width: 150px !important;}
+}
+@media (max-width: 980px){
+    .navbar-nav > li{ width: 20% !important;}
+    wpr-top-ad {
+        margin-top: 240px;
+    }
+}
+
+.bottom-10 {
+    margin-bottom: 10px;
+}
+
+.nav collapse nav navbar-nav{
+display: inline-block;
+list-style-type: none;
+text-align: center;
+}
+/*frame*/
+.panel-default {
+    margin-top: 40px;
+    border-color: #ddd;
+    border-color: #989393;
+}
+
+.panel-heading{
+    margin-top: 0px;
+}
+
+.navbar-nav.mr-auto{
+    float: none;
+    text-align: center;
+}
+/*header center*/
+ .navbar-nav{
+    float: none;
+    text-align: center;
+    height: 100%;
+}
+.dropdown-menu{
+    margin: 0px;
+}
+.navbar-nav li{
+    display: inline-block;
+    float:none;
+
+}
+.navbar-nav .dropdown-submenu{
+    width: 180px;
+}
+.navbar-nav .dropdown li{
+    display: block;
+}
+.navbar-nav .dropdown-submenu .dropdown-menu{
+    width: 220px;
+}
+
+.row{
+    margin-right: 15px;
+    margin-left: 15px;
+    display: inherit;
+}
+
+.navbar-logo {
+    width: 90px;
+  }
+
+  .customize-grid-12{
+    width: 120px;
+}
+ .customize-grid-15{
+    width: 150px;
+}
+
+.customize-grid-19{
+    width: 190px;
+}
+
+.icon .fas { text-align: center;}
+.icon .fas span{ 
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;    
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top:  5px;
+}
+.icon .fas a{ 
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;    
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-top:  5px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+.fas{
+    line-height: 1;
+}
+/*text color*/
+.form-control {
+    color: #000000;
+}
+
+/*border damage check image*/
+.jumbotron{
+      border-style: solid;
+    border-width: 2px;
+      background-color: #FFF;
+      padding: 45px;
+      /* text-align: center; */
+}
+
+/*responsive damage check image*/
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+/*date time display width*/  
+.wj-content.wj-dropdown, .wj-content.wj-inputnumber, .wj-content.wj-inputmask, .wj-content.wj-calendar-outer, .wj-content.wj-pager {
+    display: grid !important;
+}
+
+/*date time display button size*/  
+.wj-glyph-down {
+    top: -1px;
+    border-top: .5em solid !important;
+    border-right: 0.25em solid transparent !important;
+    border-left: .25em solid transparent !important;
+}
+
+/* .wj-control .wj-input-group .wj-input-group-btn:last-child:not(:first-child)>.wj-btn, .wj-viewer .wj-control .wj-input-group .wj-input-group-btn:last-child:not(:first-child)>.wj-applybutton {
+    border-left: 0px solid !important;
+} */
+
+.button.wj-btn.wj-btn-default{
+    padding: 0px;
+}
+
+hr {
+
+    border-top: 1px solid #989393;
+}
+
+ .col-xs-offset-1 {
+    margin-left: 0%;
+}
+
+.offset-1 {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.col-xs-10 {
+    width: 100%;
+} 
+
+
+
+ .wj-cell.wj-header {
+    text-align: center !important;
+    background:  #95cadf!important;  
+    color:#000000 !important;
+    
+} 
+.wj-state-selected {
+    background-color: #bbdefb !important;
+    color: #000000 !important;
+}
+.wj-cells .wj-cell.wj-state-multi-selected {
+    background:  #ddf0ff !important;
+    color: #000 !important;
+}
+
+/*total table*/
+.table>thead>tr>td.danger, .table>tbody>tr>td.danger, .table>tfoot>tr>td.danger, .table>thead>tr>th.danger, .table>tbody>tr>th.danger, .table>tfoot>tr>th.danger, .table>thead>tr.danger>td, .table>tbody>tr.danger>td, .table>tfoot>tr.danger>td, .table>thead>tr.danger>th, .table>tbody>tr.danger>th, .table>tfoot>tr.danger>th {
+    background-color: #bbdefb94;
+}
+
+/* table right content
+.wj-cell.wj-align-right {
+    text-align: right !important;
+} */
+
+.navbar-expand-lg > .container, .navbar-expand-lg > .container-fluid {
+    flex-wrap: nowrap;
+    float: none;
+}
+
+.col-lg-6 {
+    flex: 0 0 0%;
+     max-width: 0%; 
+}
+/*お知らせ新規登録・変更・削除画面
+
+
+/* css for hovering on non-header rows */
+/***
+#gsFlexGrid .wj-cells .wj-row:hover .wj-cell:not(.wj-state-selected):not(.wj-state-multi-selected) {
+  transition: all 0.5s;
+  background: rgb(127, 170, 207);
+}
+**/
+
+/*new header center*/
+/* @media (min-width: 992px) 
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    text-align: center !important;
+    display: inline;
+}*/
+
+/* @media (min-width: 992px)
+.navbar-expand-lg .navbar-collapse {
+    display: inline !important;
+    flex-basis: auto;
+    text-align: center;
+} */
+
+element.style {
+    background-color: #0274be !important;
+}
+
+.sticky-top{
+    background-color: #FFF;
+    padding-bottom: 15px;
+}
+
+.navbar-nav.mr-auto {
+    float: none;
+    text-align: center;
+    display: -webkit-inline-box;
+}
+
+/* .wj-control * {
+    box-sizing: inherit;
+    text-align: center;
+} */
+
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
+/*check box*/
+.radio label, .checkbox label {
+    min-height: 20px;
+    padding-left: 0px;
+    margin-bottom: 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/*responsive menu*/
+@media (max-width: 768px){
+.navbar-collapse.collapse {
+    padding-bottom: 0;
+  margin: 0%;
+    overflow: visible!important;
+    visibility: visible!important;
+}}
+.navbar-nav {
+    margin: 0px 0px;
+}
+.wj-flexgrid .wj-colfooters .wj-cell {
+    align-items: left;
+        text-align: right !important;}
+
+
+/*srcollbar*/
+.frame {
+   
+    border: 1px solid black;    
+    width: 48%;
+    height: 24.5em;
+   overflow: auto;
+}
+/*col-9 customize*/
+.cuscol9{ width: 83.3%;}
+
+/*table 高さ*/
+.grid{
+    height: 1000px;
+}
+/*login width*/
+.container-fruid{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 20px;
+}
+
+.col-footer {
+    background-color: #0274be;
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
